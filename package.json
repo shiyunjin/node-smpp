@@ -1,0 +1,40 @@
+{
+  "author": {
+    "name": "shiyunjin",
+    "email": "to@shiyunjin.cn"
+  },
+  "bugs": {
+    "url": "https://github.com/shiyunjin/node-smpp/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "iconv-lite": "0.x"
+  },
+  "deprecated": false,
+  "description": "SMPP 3.4 client and server implementation in node.js",
+  "devDependencies": {
+    "coveralls": "^2.11.9",
+    "istanbul": "^0.4.3",
+    "mocha": "2.x"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "files": [
+    "lib/",
+    "index.js"
+  ],
+  "homepage": "https://github.com/shiyunjin/node-smpp#readme",
+  "license": "MIT",
+  "main": "./lib/smpp",
+  "name": "smpp",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shiyunjin/node-smpp.git"
+  },
+  "scripts": {
+    "cover": "istanbul cover _mocha",
+    "test": "mocha"
+  },
+  "version": "0.3.2"
+}
