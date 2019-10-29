@@ -27,7 +27,7 @@
   "homepage": "https://github.com/shiyunjin/node-smpp#readme",
   "license": "MIT",
   "main": "./lib/smpp",
-  "name": "smpp",
+  "name": "smpp-34",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/shiyunjin/node-smpp.git"
